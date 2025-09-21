@@ -14,7 +14,7 @@ This library assumes following Arduino standard functions working:
 
 Will works for the environment without arduino by porting functions above.
 
-## example usage
+## Basic usage
 
 ### schematics:
 
@@ -51,6 +51,7 @@ void setup()
 
 void loop() 
 {
+  // execute scan
   switch_scanner.update();
 }
 ```
