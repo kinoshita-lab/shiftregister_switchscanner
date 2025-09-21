@@ -29,7 +29,7 @@ private:
     };
 
 public:
-    using SwitchChangeHandler = std::function<void(const uint32_t switch_index, const int off_on)>;
+    using SwitchChangeHandler = std::function<void(uint32_t switch_index, const int off_on)>;
 
     ShiftregisterSwitchScanner()
     {
