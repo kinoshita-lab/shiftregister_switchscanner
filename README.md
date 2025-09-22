@@ -1,4 +1,4 @@
-# 74HC165 Shift Register Switch Scanner for Aruino-ish environment
+# 74HC165 Shift Register Switch Scanner for Arduino-ish environment
 A Header-only switch scanner with configurable parameters. Commonly used with Kinoshita Laboratory's products.
 
 ## Features
